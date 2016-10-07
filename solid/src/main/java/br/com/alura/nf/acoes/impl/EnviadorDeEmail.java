@@ -1,4 +1,7 @@
-package br.com.alura;
+package br.com.alura.nf.acoes.impl;
+
+import br.com.alura.nf.NotaFiscal;
+import br.com.alura.nf.acoes.AcaoAposGerarNota;
 
 public class EnviadorDeEmail implements AcaoAposGerarNota {
 

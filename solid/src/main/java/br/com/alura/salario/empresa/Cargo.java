@@ -1,4 +1,8 @@
-package br.com.alura;
+package br.com.alura.salario.empresa;
+
+import br.com.alura.salario.calculos.CalculoSalario;
+import br.com.alura.salario.calculos.impl.DezOuVintePorCento;
+import br.com.alura.salario.calculos.impl.QuinzeOuVinteCincoPorcento;
 
 public enum Cargo {
 

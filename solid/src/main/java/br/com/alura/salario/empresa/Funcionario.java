@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.salario.empresa;
 
 import java.util.Calendar;
 

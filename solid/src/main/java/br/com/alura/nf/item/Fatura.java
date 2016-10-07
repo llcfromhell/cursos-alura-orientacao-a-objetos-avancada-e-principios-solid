@@ -1,9 +1,8 @@
-package br.com.alura;
+package br.com.alura.nf.item;
 
 public class Fatura {
 
 	public double getValorMensal() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

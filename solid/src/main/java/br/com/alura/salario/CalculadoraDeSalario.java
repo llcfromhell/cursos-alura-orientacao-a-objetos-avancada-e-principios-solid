@@ -1,4 +1,6 @@
-package br.com.alura;
+package br.com.alura.salario;
+
+import br.com.alura.salario.empresa.Funcionario;
 
 public class CalculadoraDeSalario {
 

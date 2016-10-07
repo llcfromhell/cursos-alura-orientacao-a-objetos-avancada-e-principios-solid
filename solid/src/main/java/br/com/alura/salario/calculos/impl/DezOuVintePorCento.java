@@ -1,4 +1,7 @@
-package br.com.alura;
+package br.com.alura.salario.calculos.impl;
+
+import br.com.alura.salario.calculos.CalculoSalario;
+import br.com.alura.salario.empresa.Funcionario;
 
 public class DezOuVintePorCento implements CalculoSalario {
 

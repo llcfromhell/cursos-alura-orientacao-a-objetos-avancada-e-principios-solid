@@ -1,6 +1,9 @@
-package br.com.alura;
+package br.com.alura.nf;
 
 import java.util.List;
+
+import br.com.alura.nf.acoes.AcaoAposGerarNota;
+import br.com.alura.nf.item.Fatura;
 
 public class GeradorDeNotaFiscal {
 
