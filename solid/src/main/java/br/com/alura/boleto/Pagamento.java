@@ -3,21 +3,22 @@ package br.com.alura.boleto;
 public class Pagamento {
 
 	private double valor;
-	private MeioDePagamento boleto;
 
-	public Pagamento(double valor, MeioDePagamento boleto) {
+	private MeioDePagamento meioPagamento;
+
+	public Pagamento(double valor, MeioDePagamento meioPagamento) {
 		this.valor = valor;
-		this.boleto = boleto;
+		this.meioPagamento = meioPagamento;
 	}
 
 	public double getValor() {
 		return valor;
 	}
 
-	public MeioDePagamento getBoleto() {
-		return boleto;
+	public MeioDePagamento getMeioPagamento() {
+		return meioPagamento;
 	}
-	
+
 	
 
 }
