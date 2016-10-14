@@ -15,7 +15,7 @@ public class GeradorDeNotaFiscal {
 
 	public NotaFiscal gera(Fatura fatura) {
 
-		double valor = fatura.getValorMensal();
+		double valor = fatura.getValor();
 
 		NotaFiscal nf = new NotaFiscal(valor, impostoSimplesSobreO(valor));
 
